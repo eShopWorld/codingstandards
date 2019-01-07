@@ -6,11 +6,19 @@ this repository covers eshopworld .editorconfig and other artefacts to capture c
 
 It is a coding standard definition file supported by many IDEs including VS. Please see https://editorconfig.org/#overview
 
+**How to Install**
+
+Place the .editorconfig at the root of the drive where your source code resides.
+
+Eg:
+If you are using a C:\ for your source, place the .editorconfig file at C:\.editorconfig
+
+
 **How to deploy .editorconfig globally**
 
-The editor config deployment is hierarchical. the folder path is checked from bottom to top until a root definition is found. So here we can support top level definition (when placed at the root of the project hosting drive(s) e.g. C:\) and if any team wishes to override - they can maintain their own copy at the root of the project and mark it as root level definiton (root = true)
+The editor config deployment is hierarchical, such that the folder path of your source is checked from bottom to top until a definition (.editorconfig) is found. Here, we can support top level definition where the .editorconfig is placed at the root of the drive. If any team wishes to override the definition - they can maintain their own copy at the root of the project and mark it as root level definiton (root = true).
 
-In principle, we have the option of deploying this top level global editor config via domain policy. At the moment, it requires manual deployment by the developer. This policy would take care of subsequent updates of the policy.
+In principle, we have the option of deploying this top level global .editorconfig via Active Directory Group Policy (AD) with the ESW Domain. At the moment, .editorconfig requires manual deployment by the developer just once for initial install. Using AD would take care of updates there after of any editorconfig updates.
 
 **Content Nuget packages - is that an option?**
 
