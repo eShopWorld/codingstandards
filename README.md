@@ -11,7 +11,7 @@ It is a coding standard definition file supported by many IDEs including VS. Ple
 Place the .editorconfig at the root of the drive where your source code resides.
 
 Eg:
-If you are using a C:\ for your source, place the .editorconfig file at C:\.editorconfig
+If you are using a C:\ for your source, place the .editorconfig file at C:\\.editorconfig
 
 
 **How to deploy .editorconfig globally**
