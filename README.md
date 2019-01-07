@@ -8,7 +8,7 @@ It is a coding standard definition file supported by many IDEs including VS. Ple
 
 **How to Install**
 
-Place the .editorconfig at the root off the drive.
+Place the .editorconfig at the root of the drive.
 
 Eg:
 If you are using a C:\ for your source, place the .editorconfig file at C:\.editorconfig
@@ -16,7 +16,7 @@ If you are using a C:\ for your source, place the .editorconfig file at C:\.edit
 
 **How to deploy .editorconfig globally**
 
-The editor config deployment is hierarchical, such that the folder path of your source is checked from bottom to top until a definition is found. Here, we can support top level definition where the .editorconfig is placed at the root of your directory. If any team wishes to override the definition - they can maintain their own copy at the root of the project and mark it as root level definiton (root = true).
+The editor config deployment is hierarchical, such that the folder path of your source is checked from bottom to top until a definition is found. Here, we can support top level definition where the .editorconfig is placed at the root of your drive. If any team wishes to override the definition - they can maintain their own copy at the root of the project and mark it as root level definiton (root = true).
 
 In principle, we have the option of deploying this top level global .editorconfig via Active Directory Group Policy (AD) with the ESW Domain. At the moment, .editorconfig requires manual deployment by the developer just once for initial install. Using AD would take care of updates there after of any editorconfig updates.
 
