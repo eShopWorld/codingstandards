@@ -8,7 +8,7 @@ It is a coding standard definition file supported by many IDEs including VS. Ple
 
 **How to Install**
 
-Place the .editorconfig at the root of your drive.
+Place the .editorconfig at the root off the drive.
 
 Eg:
 If you are using a C:\ for your source, place the .editorconfig file at C:\.editorconfig
